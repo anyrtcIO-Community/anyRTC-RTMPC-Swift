@@ -23,14 +23,14 @@ pod 'RTMPCHybirdEngine', '~> 1.0.4'
 ### 手动导入
 
 1. 下载Demo，或者前往[anyRTC官网](https://www.anyrtc.io/resoure)下载SDK
-![RTMPCHybirdEngine](RTMPCHybirdEngine.png)
+![RTMPCHybirdEngine](/image/RTMPCHybirdEngine.png)
 
 2. 在Xcode中选择“Add files to 'Your project name'...”，将RTMPCHybirdEngine.framework添加到你的工程目录中</br>
 
 3.  打开General->Embedded Binaries中添加RTMPCHybirdEngine.framework</br>
 
 ## 扫码体验
-![scan](scan.png)
+![scan](/image/scan.png)
 
 ### 注意事项：
 安装后提示"未受信任的企业开发者"--> 前往设置-->通用-->描述文件与设备管理-->选择企业级应用-->信任
