@@ -1,0 +1,6 @@
+framework module XHToastSwift {
+  umbrella header "XHToastSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

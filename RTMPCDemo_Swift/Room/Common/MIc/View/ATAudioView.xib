@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ATAudioView" customModule="RTMPCDemo_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="115" height="165"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlE-rW-rQ8">
+                    <rect key="frame" x="0.0" y="112.5" width="115" height="50"/>
+                    <state key="normal" image="Hangups"/>
+                    <connections>
+                        <action selector="hangUpMic:" destination="iN0-l3-epB" eventType="touchUpInside" id="Aqv-kb-4fZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kitty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1v-7w-n96">
+                    <rect key="frame" x="0.0" y="72.5" width="115" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="jDs-dW-usa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYc-d8-k9P" customClass="ATAudioButton" customModule="RTMPCDemo_Swift" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="115" height="55"/>
+                    <state key="normal" image="headurl_small"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hYc-d8-k9P" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3zK-Rv-ckk"/>
+                <constraint firstItem="I1v-7w-n96" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hYc-d8-k9P" secondAttribute="bottom" constant="5" id="4Cf-PA-l7j"/>
+                <constraint firstItem="hYc-d8-k9P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="8Af-qq-pQu"/>
+                <constraint firstItem="jlE-rW-rQ8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="HNI-5T-VjK"/>
+                <constraint firstItem="jlE-rW-rQ8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="KPg-Bu-kZm"/>
+                <constraint firstItem="I1v-7w-n96" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="M4g-LV-icY"/>
+                <constraint firstItem="I1v-7w-n96" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="cK0-RF-Gly"/>
+                <constraint firstItem="I1v-7w-n96" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jEI-aP-ffV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hYc-d8-k9P" secondAttribute="trailing" id="kJ2-YE-r0s"/>
+                <constraint firstItem="jlE-rW-rQ8" firstAttribute="top" secondItem="I1v-7w-n96" secondAttribute="bottom" constant="20" id="tyv-lj-BrR"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="hangUpButton" destination="jlE-rW-rQ8" id="iAi-fe-XVg"/>
+                <outlet property="headButton" destination="hYc-d8-k9P" id="ke8-Wr-dql"/>
+                <outlet property="nameLabel" destination="I1v-7w-n96" id="THN-JC-9UH"/>
+            </connections>
+            <point key="canvasLocation" x="-71.5" y="133.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Hangups" width="90" height="50"/>
+        <image name="headurl_small" width="55" height="55"/>
+    </resources>
+</document>

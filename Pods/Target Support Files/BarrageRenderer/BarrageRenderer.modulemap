@@ -1,0 +1,6 @@
+framework module BarrageRenderer {
+  umbrella header "BarrageRenderer-umbrella.h"
+
+  export *
+  module * { export * }
+}
