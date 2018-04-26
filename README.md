@@ -42,7 +42,7 @@ pod 'RTMPCHybirdEngine', '~> 1.0.4'
 ### 资源中心
 [更多详细方法使用，请查看API文档](https://www.anyrtc.io/resoure)
 
-#SDK包含
+## SDK包含
 RTC 连麦互动</br>
 RTMP 推流器</br>
 RTMP 播放器</br>
