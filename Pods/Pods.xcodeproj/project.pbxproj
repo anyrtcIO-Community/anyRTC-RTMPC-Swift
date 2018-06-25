@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -205,7 +205,7 @@
 		101D19BDF92E2C6999A460D853050D12 /* RTMPCGuestOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPCGuestOption.h; path = RTMPCHybirdEngine/RTMPCHybirdEngine.framework/Headers/RTMPCGuestOption.h; sourceTree = "<group>"; };
 		10ADB70E3A78A44843CEEDD435B58516 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		14F923FD94E10628538834CBFB339FB1 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		17E6EF43A4361D0B3C9E9ADA5E75D094 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E6EF43A4361D0B3C9E9ADA5E75D094 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B278381675116E3B22CB6FB47E9AAF3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		1C2CCEF939A5CEB2F541FC7AB66CAEDA /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		1C533F8925FF01AB650B1B5E42FFEDDC /* BarrageDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageDescriptor.h; path = BarrageRenderer/BarrageEngine/BarrageDescriptor.h; sourceTree = "<group>"; };
@@ -219,7 +219,7 @@
 		303A48ED33C781289D8568B51B06AF9E /* RTMPCHybrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPCHybrid.h; path = RTMPCHybirdEngine/RTMPCHybirdEngine.framework/Headers/RTMPCHybrid.h; sourceTree = "<group>"; };
 		31416E0BF324A72610019FBACF399AD1 /* BarrageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageHeader.h; path = BarrageRenderer/BarrageHeader.h; sourceTree = "<group>"; };
 		321098847CC7438C9287A39420B241E8 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		364A64234A76D4630587228FB7CE96E6 /* BarrageRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BarrageRenderer.framework; path = BarrageRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364A64234A76D4630587228FB7CE96E6 /* BarrageRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarrageRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		366BA60675ED5EA0FBAADE5CA1AF605D /* Pods-RTMPCDemo_Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTMPCDemo_Swift-acknowledgements.plist"; sourceTree = "<group>"; };
 		3697BB9579F4FEDA774FD22789380683 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		399858DDB0E35CF4E0F93982D806A5BB /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
@@ -234,7 +234,7 @@
 		48E28932A027684BB2A263DD0976D96C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		49127A825C1AB9766005B4B0F3C2C7CB /* BarrageSprite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageSprite.h; path = BarrageRenderer/BarrageSprite/BarrageSprite.h; sourceTree = "<group>"; };
 		4A709D8E3B7BE481A47DFFA9B5B8090B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		4AB496ABEE280F4E207B3FFA238CC58D /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB496ABEE280F4E207B3FFA238CC58D /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C4A6F4617E3C3D675442002099A79A5 /* BarrageSpriteQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageSpriteQueue.h; path = BarrageRenderer/BarrageEngine/BarrageSpriteQueue.h; sourceTree = "<group>"; };
 		4D9C41DF91FDBFDEA7C1074B0E3DE6CE /* BarrageSpriteFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageSpriteFactory.m; path = BarrageRenderer/BarrageEngine/BarrageSpriteFactory.m; sourceTree = "<group>"; };
 		4E0629732CB30E41B1807C85A08044AB /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
@@ -297,13 +297,13 @@
 		8EB93C465020F6E36A1A44212403EC0B /* UIView+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+BarrageView.m"; path = "BarrageRenderer/BarrageSprite/UIView+BarrageView.m"; sourceTree = "<group>"; };
 		906B0F374B10482FA10CBAECF0BC5E39 /* UILabel+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+BarrageView.m"; path = "BarrageRenderer/BarrageSprite/UILabel+BarrageView.m"; sourceTree = "<group>"; };
 		91A6226CD4B0B0755448E48091AF07A1 /* XHToastSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHToastSwift-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B3B8BBF9C8B773134862AF267FE0AF /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		94AE05D89BDD7AE5C1F316A4CC2F8333 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		959ADD68C2856C001E7C7245B22C0973 /* BarrageDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageDescriptor.m; path = BarrageRenderer/BarrageEngine/BarrageDescriptor.m; sourceTree = "<group>"; };
 		96F5D1EBCB7BD873166B28CA9D28346B /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		995EA8523A8F57C9BF7725EABCD0B252 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		9A0D1EBB73829F058550EA8534B32CA1 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0D1EBB73829F058550EA8534B32CA1 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A78159B2240DA2F6F433E3C0CFD6A31 /* Pods-RTMPCDemo_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTMPCDemo_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		9AAF9BAEC7755750603804B4DD7D6521 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		9EB433995C9A7615BB53F1B6A287C45C /* Pods-RTMPCDemo_Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTMPCDemo_Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -319,7 +319,7 @@
 		B08BA2CFE63029B758941DC5EE22E994 /* BarrageSprite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageSprite.m; path = BarrageRenderer/BarrageSprite/BarrageSprite.m; sourceTree = "<group>"; };
 		B2AF4A68A6307AF77CE4E9DF495F2416 /* XHToastSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHToastSwift.modulemap; sourceTree = "<group>"; };
 		B3394EA2AC26F6AB9DEA669DC7393BE3 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		B3399FA0EA3BBBED13E4E4985BC5A688 /* XHToastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHToastSwift.framework; path = XHToastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3399FA0EA3BBBED13E4E4985BC5A688 /* XHToastSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XHToastSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452703D6DAB75F2F3BF1ACF76F09C1D /* UIImageView+BarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+BarrageView.m"; path = "BarrageRenderer/BarrageSprite/UIImageView+BarrageView.m"; sourceTree = "<group>"; };
 		B4C5231123877AAE3D5005C97E7D08A7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -341,7 +341,7 @@
 		CB794BF88E8AD666314C62E46FD03B3E /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		CD3AC0D5A16E4CE2550898DE098EDF6F /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		CD4F569A31DFD79A99CB7DFDB2FD48B1 /* Pods-RTMPCDemo_Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTMPCDemo_Swift-resources.sh"; sourceTree = "<group>"; };
-		CDD3AAE04511B8C8D207C14B0F5B5076 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD3AAE04511B8C8D207C14B0F5B5076 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE528AE18F3747E29392D0DA3C488F8B /* BarrageDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageDispatcher.h; path = BarrageRenderer/BarrageEngine/BarrageDispatcher.h; sourceTree = "<group>"; };
 		CFD93913360AE1EF934D587027600A86 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		D03D0D7B981E71603B6AE46A12C17C83 /* BarrageDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageDispatcher.m; path = BarrageRenderer/BarrageEngine/BarrageDispatcher.m; sourceTree = "<group>"; };
@@ -351,7 +351,7 @@
 		D7E72279DDB0E165CE8E5F343C469E59 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D9213FD9744D357C3943E67F517FF352 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		DBAA1DB1A02E8014F0398A477EE43450 /* Pods_RTMPCDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTMPCDemo_Swift.framework; path = "Pods-RTMPCDemo_Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBAA1DB1A02E8014F0398A477EE43450 /* Pods_RTMPCDemo_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTMPCDemo_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCBDD354A89D324F5E67161AD72189D /* UILabel+BarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+BarrageView.h"; path = "BarrageRenderer/BarrageSprite/UILabel+BarrageView.h"; sourceTree = "<group>"; };
 		DD81A4E89DC3AECED171B0FF932B0A6E /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		DDDAFA90F150E0681FF707DEA4BD1555 /* Pods-RTMPCDemo_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTMPCDemo_Swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -462,7 +462,6 @@
 				60C3CCA9005AC2C22CB70757D2FD83CC /* XHToast.swift */,
 				120B76DD69C12697421F2755DD3EADC2 /* Support Files */,
 			);
-			name = XHToastSwift;
 			path = XHToastSwift;
 			sourceTree = "<group>";
 		};
@@ -590,7 +589,6 @@
 				8EB93C465020F6E36A1A44212403EC0B /* UIView+BarrageView.m */,
 				20CCA8FF56253410C1C2070080BA5791 /* Support Files */,
 			);
-			name = BarrageRenderer;
 			path = BarrageRenderer;
 			sourceTree = "<group>";
 		};
@@ -631,7 +629,6 @@
 				E10AB95A043D7BAE1E3819A37577B7FE /* NSString+MJExtension.m */,
 				D5B1615C023743A844A754EECADD2A5A /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -696,7 +693,6 @@
 				EC7551AA7C7C1698854190B259AB90E5 /* UILayoutSupport+Extensions.swift */,
 				F7BE633A3E6C46EE14E75A833C8AD175 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -736,7 +732,6 @@
 				641258319643FBA14108DB7EBFDEBB60 /* Validation.swift */,
 				44ECDF5FF3323149BD1B727B92255ABB /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -760,7 +755,6 @@
 				E5D3340BEB2233C05C22F776F7E50B1A /* SwiftyJSON.swift */,
 				4945ED6FDF44A9D6F1B56B4298F406E1 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -790,7 +784,6 @@
 				41E9E0A9917391E909A07818F501D3E6 /* RTMPCHybridEngineKit.h */,
 				C42FE46A4AB9991E5EAF2DF407482F7F /* Frameworks */,
 			);
-			name = RTMPCHybirdEngine;
 			path = RTMPCHybirdEngine;
 			sourceTree = "<group>";
 		};
@@ -1815,6 +1808,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

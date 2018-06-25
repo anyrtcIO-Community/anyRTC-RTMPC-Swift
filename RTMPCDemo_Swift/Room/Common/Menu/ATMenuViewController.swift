@@ -37,7 +37,7 @@ class ATMenuViewController: UIViewController {
             mHosterKit.switchCamera()
             break
         case 101:
-            mHosterKit.setBeautyEnable(sender.isSelected)
+            sender.isSelected ? (mHosterKit.setCameraFilter(AnyCameraDeviceFilter_Beautiful)):(mHosterKit.setCameraFilter(AnyCameraDeviceFilter_Original))
             break
         case 102:
             mHosterKit.setLocalVideoEnable(!sender.isSelected)

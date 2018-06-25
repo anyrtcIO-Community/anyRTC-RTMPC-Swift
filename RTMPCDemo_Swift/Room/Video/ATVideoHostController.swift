@@ -78,7 +78,7 @@ class ATVideoHostController: ATBarrageViewController,RTMPCHosterRtmpDelegate,RTM
         option.cameraType = RTMPCCameraType.beauty
         
         if liveInfo.videoMode != "标清" {
-            (liveInfo.videoMode == "顺畅") ? (option.videoMode = RTMPC_Video_Low) : (option.videoMode = RTMPC_Video_720P)
+            (liveInfo.videoMode == "顺畅") ? (option.videoMode = AnyRTCVideoQuality_Medium1) : (option.videoMode = AnyRTCVideoQuality_Height1)
         }
         
         let beautyButton : UIButton = view.viewWithTag(105) as! UIButton
@@ -130,7 +130,7 @@ class ATVideoHostController: ATBarrageViewController,RTMPCHosterRtmpDelegate,RTM
             break
         case 105:
             //美颜
-            mHosterKit.setBeautyEnable(sender.isSelected)
+            sender.isSelected ? (mHosterKit.setCameraFilter(AnyCameraDeviceFilter_Beautiful)):(mHosterKit.setCameraFilter(AnyCameraDeviceFilter_Original))
             break
         case 106:
             //翻转摄像头
