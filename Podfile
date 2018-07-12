@@ -2,7 +2,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target 'RTMPCDemo_Swift' do
-    pod 'RTMPCHybirdEngine', '~> 2.0.0'
+    pod 'RTMPCHybirdEngine', '~> 2.0.5'
     pod 'SwiftyJSON'
     pod 'MJExtension', '~> 3.0.13'
     pod 'Alamofire', '~> 4.6.0'

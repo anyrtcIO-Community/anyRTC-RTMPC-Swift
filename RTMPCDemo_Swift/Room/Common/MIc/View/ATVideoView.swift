@@ -14,8 +14,6 @@ protocol HangUpDelegate {
 }
 
 class ATVideoView: UIView {
-    //视图渲染
-    @IBOutlet weak var localView: UIView!
     
     @IBOutlet weak var nameLabel: UILabel!
     //挂断连麦（主播或自己显示，默认不显示）

@@ -50,7 +50,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
         topicLabel.text = hallModel.liveTopic
         roomIdLabel.text = "房间id：" + hallModel.anyrtcId
         
-        padding.constant = -CGFloat(MAXFLOAT)
+        padding.constant = -500
         
         //获取在线人员列表
         let tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(getMemberList))
@@ -108,7 +108,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
                         let localVideo: ATVideoView = object as! ATVideoView
                         videoArr.removeObject(at: index)
                         localVideo.removeFromSuperview()
-                        padding.constant = -CGFloat(MAXFLOAT)
+                        padding.constant = -500
                     }
                 })
                 layoutVideoView(localView: localView, containerView: containerView, landscape: Int32(hallModel.isLiveLandscape))
@@ -160,7 +160,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
         applyButton.isSelected = false
         applyButton.setTitle("申请连麦", for: UIControlState.normal)
         applyButton.backgroundColor = UIColor.blue
-        padding.constant = -CGFloat(MAXFLOAT)
+        padding.constant = -500
     }
     
     // MARK: - UITextFieldDelegate
@@ -221,7 +221,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
             video.delegate = self
             view.addSubview(video)
             videoArr.add(video)
-            gestKit.setLocalVideoCapturer(video.localView)
+            gestKit.setLocalVideoCapturer(video)
             layoutVideoView(localView: localView, containerView: containerView, landscape: Int32(hallModel.isLiveLandscape))
         } else {
             applyButton.isSelected = false
@@ -242,7 +242,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
         applyButton.isSelected = false
         applyButton.setTitle("申请连麦", for: UIControlState.normal)
         applyButton.backgroundColor = UIColor.blue
-        padding.constant = -CGFloat(MAXFLOAT)
+        padding.constant = -500
         layoutVideoView(localView: localView, containerView: containerView, landscape: Int32(hallModel.isLiveLandscape))
     }
     
@@ -270,7 +270,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
         
         videoArr.add(videoView)
         //设置连麦者视频窗口
-        gestKit.setRTCVideoRender(strRTCPubId, andRender: videoView.localView)
+        gestKit.setRTCVideoRender(strRTCPubId, andRender: videoView)
     }
     
     func onRTCCloseVideoRender(_ strLivePeerId: String!, withRTCPubId strRTCPubId: String!, withUserId strUserId: String!) {

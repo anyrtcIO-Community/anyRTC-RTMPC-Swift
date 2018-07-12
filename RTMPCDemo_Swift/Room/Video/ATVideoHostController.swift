@@ -274,7 +274,7 @@ class ATVideoHostController: ATBarrageViewController,RTMPCHosterRtmpDelegate,RTM
         videoArr.add(videoView)
         layoutVideoView(localView: localView, containerView: containerView, landscape: Int32(liveInfo.isLiveLandscape))
         //设置连麦者视频窗口
-        mHosterKit.setRTCVideoRender(strRTCPubId, andRender: videoView.localView)
+        mHosterKit.setRTCVideoRender(strRTCPubId, andRender: videoView)
     }
     
     func onRTCCloseVideoRender(_ strLivePeerId: String!, withRTCPubId strRTCPubId: String!, withUserId strUserId: String!) {

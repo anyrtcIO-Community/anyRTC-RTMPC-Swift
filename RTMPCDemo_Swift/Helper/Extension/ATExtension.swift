@@ -288,59 +288,6 @@ extension UIViewController {
             }
         }
     }
-    
-    //MARK:- 根据分辨率显示，防止拉伸压缩
-    func makeResolution(videoArr:NSMutableArray,itemWidth: CGFloat, itemHeight: CGFloat) {
-        videoArr.enumerateObjects { (object, index, stop) in
-            
-            if object is ATVideoView {
-                let video: ATVideoView = object as! ATVideoView
-                
-                let sizeW: CGFloat = (video.videoSize?.width)!
-                let sizeH: CGFloat = (video.videoSize?.height)!
-                
-                var value0: CGFloat = 0
-                var value1: CGFloat = 0
-                
-                if sizeW != 0 && sizeH != 0 {
-                    
-                    //固定高填充宽
-                    if itemHeight * sizeW/sizeH > itemWidth {
-                        value0 = (itemHeight * sizeW/sizeH) * itemHeight
-                    }
-                    
-                    //固定宽填充高
-                    if itemWidth * sizeH/sizeW > itemHeight {
-                        value1 = (itemWidth * sizeH/sizeW) * itemWidth
-                    }
-                    
-                    video.addSubview(video.localView)
-                    
-                    //取面积小的进行扩充
-                    if (value0 > value1 && value1 != 0) || value0 == 0{
-                        //固定宽填充高
-                        video.localView.snp.remakeConstraints({ (make) in
-                            make.width.equalTo(video)
-                            make.height.equalTo(video.snp.width).multipliedBy(sizeH/sizeW)
-                            make.center.equalTo(video.snp.center)
-                        })
-                        
-                    } else {
-                        //固定高填充宽
-                        video.localView.snp.remakeConstraints({ (make) in
-                            make.height.equalTo(video)
-                            make.width.equalTo(video.snp.height).multipliedBy(sizeW/sizeH)
-                            make.center.equalTo(video.snp.center)
-                        })
-                    }
-                }
-            }
-            
-            let video: UIView = object as! UIView
-            //超出范围裁减掉
-            video.clipsToBounds = true
-        }
-    }
 }
 
 //MARK:- 按钮扩展

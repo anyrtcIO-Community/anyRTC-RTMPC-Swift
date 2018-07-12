@@ -139,9 +139,6 @@ class ATBarrageViewController: UIViewController,UITextFieldDelegate{
         default: break
         }
         
-        //根据分辨率显示,无压缩填充
-        makeResolution(videoArr: videoArr, itemWidth: itemWidth, itemHeight: itemHeight)
-        
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
             for subView: UIView in localView.subviews {
                 subView.frame = localView.frame;
