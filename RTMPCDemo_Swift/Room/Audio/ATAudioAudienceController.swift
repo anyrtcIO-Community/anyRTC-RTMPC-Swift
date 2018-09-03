@@ -157,7 +157,7 @@ class ATAudioAudienceController: ATBarrageViewController,RTMPCGuestRtcDelegate,R
             barrageButton.isSelected = false
             
             //发送弹幕
-            gestAudioKit.sendUserMessage(Int32(RTMPCMessageType(rawValue: 1).rawValue), withUserName: userName, andUserHeader: "", andContent: textField.text)
+            gestAudioKit.sendUserMessage(RTC_Barrage_Message_Type, withUserName: userName, andUserHeader: "", andContent: textField.text)
             
             textField.resignFirstResponder()
             textField.text = ""
@@ -307,7 +307,7 @@ class ATAudioAudienceController: ATBarrageViewController,RTMPCGuestRtcDelegate,R
         //视频窗口大小改变
     }
     
-    func onRTCUserMessage(_ nType: Int32, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
+    func onRTCUserMessage(_ nType: RTCMessageType, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
         //收到消息回调
         renderer.receive(produceTextBarrage(message:strContent, direction: BarrageWalkDirection.L2R.rawValue))
     }

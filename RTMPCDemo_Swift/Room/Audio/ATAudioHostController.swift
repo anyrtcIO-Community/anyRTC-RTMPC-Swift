@@ -149,7 +149,7 @@ class ATAudioHostController: ATBarrageViewController,RTMPCHosterRtcDelegate,RTMP
             barrageButton.isSelected = false
             
             //发送弹幕
-            mHosterAudioKit.sendUserMessage(Int32(RTMPCMessageType(rawValue: 1).rawValue), withUserName: liveInfo.userName, andUserHeader: "", andContent: textField.text)
+            mHosterAudioKit.sendUserMessage(RTC_Barrage_Message_Type, withUserName: liveInfo.userName, andUserHeader:"", andContent: textField.text)
             
             textField.resignFirstResponder()
             textField.text = ""
@@ -277,7 +277,7 @@ class ATAudioHostController: ATBarrageViewController,RTMPCHosterRtcDelegate,RTMP
         }
     }
     
-    func onRTCUserMessage(_ nType: Int32, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
+    func onRTCUserMessage(_ nType: RTCMessageType, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
         //收到消息回调
         renderer.receive(produceTextBarrage(message:strContent, direction: BarrageWalkDirection.L2R.rawValue))
     }

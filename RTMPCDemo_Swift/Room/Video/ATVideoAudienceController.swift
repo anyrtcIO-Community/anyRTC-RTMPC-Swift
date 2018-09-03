@@ -172,7 +172,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
             //barrageButton.isSelected = false
             
             //发送弹幕
-            gestKit.sendUserMessage(RTMPCMessageType(rawValue: 1), withUserName: userName, andUserHeader: "", andContent: textField.text)
+            gestKit.sendUserMessage(RTC_Barrage_Message_Type, withUserName: userName, andUserHeader:"", andContent: textField.text)
             textField.resignFirstResponder()
             textField.text = ""
         }
@@ -317,7 +317,7 @@ class ATVideoAudienceController: ATBarrageViewController,RTMPCGuestRtmpDelegate,
         layoutVideoView(localView: localView, containerView: containerView, landscape: Int32(hallModel.isLiveLandscape))
     }
     
-    func onRTCUserMessage(_ nType: Int32, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
+    func onRTCUserMessage(_ nType: RTCMessageType, withUserId strUserId: String!, withUserName strUserName: String!, withUserHeader strUserHeaderUrl: String!, withContent strContent: String!) {
         //收到消息回调
         renderer.receive(produceTextBarrage(message:strContent, direction: BarrageWalkDirection.L2R.rawValue))
     }
