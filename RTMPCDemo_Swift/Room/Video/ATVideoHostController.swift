@@ -225,8 +225,9 @@ class ATVideoHostController: ATBarrageViewController,RTMPCHosterRtmpDelegate,RTM
         rtmpLabel.text = "RTMP服务关闭"
     }
     
-    func cameraSourceDidGetPixelBuffer(_ sampleBuffer: CMSampleBuffer!) {
-        //获取视频的原始采集数据
+    func cameraSourceDidGetPixelBuffer(_ sampleBuffer: CMSampleBuffer!) -> Unmanaged<CVPixelBuffer>! {
+        //获取视频原始采集数据（必须在配置类中cameraType设置为RTMPCCameraTypeThreeFilter,该回调才有用）
+        return nil;
     }
     
     // MARK: - RTMPCHosterRtcDelegate

@@ -2,7 +2,7 @@ PODS:
   - Alamofire (4.6.0)
   - BarrageRenderer (2.1.0)
   - MJExtension (3.0.13)
-  - RTMPCHybirdEngine (2.0.9)
+  - RTMPCHybirdEngine (2.1.1)
   - SnapKit (4.0.0)
   - SwiftyJSON (4.0.0)
   - XHToastSwift (1.2.0)
@@ -11,7 +11,7 @@ DEPENDENCIES:
   - Alamofire (~> 4.6.0)
   - BarrageRenderer (~> 2.1.0)
   - MJExtension (~> 3.0.13)
-  - RTMPCHybirdEngine (~> 2.0.9)
+  - RTMPCHybirdEngine (~> 2.1.1)
   - SnapKit (~> 4.0.0)
   - SwiftyJSON
   - XHToastSwift
@@ -30,11 +30,11 @@ SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   BarrageRenderer: 00e5f8081d81f29c1fc12712ddf2f875bd9c6f77
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
-  RTMPCHybirdEngine: 817bda706047bf4a88f7e0a3e07de0ae171c3882
+  RTMPCHybirdEngine: 6bd685f07ab655d813fcfb3f4165e4837c118493
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   XHToastSwift: 002de3bf4143fc3286d9cb2e4585b681e175e061
 
-PODFILE CHECKSUM: 61c2d209abd6f206cf1e185c808f0944591e8ba3
+PODFILE CHECKSUM: 66f23804b5c8dfa07080c44bba000ce1f330242d
 
 COCOAPODS: 1.5.0

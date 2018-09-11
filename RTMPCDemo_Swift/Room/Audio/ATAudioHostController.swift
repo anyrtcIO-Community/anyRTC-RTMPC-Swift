@@ -10,7 +10,6 @@ import UIKit
 import BarrageRenderer
 
 class ATAudioHostController: ATBarrageViewController,RTMPCHosterRtcDelegate,RTMPCHosterRtmpDelegate,HangUpDelegate{
-    
     //rtc状态
     @IBOutlet weak var rtcLabel: UILabel!
     //rtmp状态
@@ -184,8 +183,9 @@ class ATAudioHostController: ATBarrageViewController,RTMPCHosterRtcDelegate,RTMP
         rtmpLabel.text = "RTMP服务关闭"
     }
     
-    func cameraSourceDidGetPixelBuffer(_ sampleBuffer: CMSampleBuffer!) {
+    func cameraSourceDidGetPixelBuffer(_ sampleBuffer: CMSampleBuffer!) -> Unmanaged<CVPixelBuffer>! {
         //获取视频的原始采集数据
+        return nil;
     }
     
     //MARK: - RTMPCHosterRtcDelegate
