@@ -1,6 +1,21 @@
 # anyRTC-RTMPC-Swift
 基于RTMP和RTC混合引擎的在线视频连麦互动直播。<br/>
 iOS 直播（网络自适应码率RTMP publisher）、点播播放器（播放器经过专业优化，可实现秒开RTMP Player）、基于RTMP 和RTC 混合引擎的的视频连麦互动（最多支持四路连麦互动）。
+
+## 更新日志
+
+2018年10月31日：</br>
+（1）RTMeetKitDelegate添加开启屏幕共享、关闭屏幕共享的回调；</br>
+（2）修复美颜相机情况下，本地视频添加子视图镜像的问题。</br>
+
+```
+//用户开启桌面共享
+-(void)onRTCOpenScreenRender:(NSString*)strRTCPeerId withRTCPubId:(NSString *)strRTCPubId withUserId:(NSString*)strUserId withUserData:(NSString*)strUserData;
+
+//用户退出桌面共享
+-(void)onRTCCloseScreenRender:(NSString*)strRTCPeerId withRTCPubId:(NSString *)strRTCPubId withUserId:(NSString*)strUserId;
+```
+
 ## 简介
 anyRTMPC-HybridEngine-iOS是为移动端应用量身打造的基于RTMP和RTC混合引擎的连麦互动流媒体直播系统。通过集成本SDK，只需几个简单API调用，便可实现一套完整的连线麦互动直播流媒体应用。包含了流媒体应用中：『采集->编码->传输->解码->播放->连麦视频互动』的所有步骤。</br>
 ## 关于SDK库
